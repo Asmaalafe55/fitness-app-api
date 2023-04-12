@@ -1,0 +1,13 @@
+{
+  "extends": ["prettier"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2]
+  }
+}

@@ -7,7 +7,8 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "lint": "eslint --ext .js .",
-    "lint:fix": "eslint --ext .js . --fix"
+    "lint:fix": "eslint --ext .js . --fix",
+    "prepare": "husky install"
   },
   "type": "module",
   "keywords": [],
@@ -27,9 +28,10 @@
     "mongoose": "^7.0.3"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.21.3",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.0",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.7"
   }
